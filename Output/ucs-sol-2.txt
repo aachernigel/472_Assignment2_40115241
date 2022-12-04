@@ -1,0 +1,62 @@
+Initial board configuration: E.BBB.E..GIJEAAGIJCCCHIJ..FH....FDD.
+
+[['E' '.' 'B' 'B' 'B' '.']
+ ['E' '.' '.' 'G' 'I' 'J']
+ ['E' 'A' 'A' 'G' 'I' 'J']
+ ['C' 'C' 'C' 'H' 'I' 'J']
+ ['.' '.' 'F' 'H' '.' '.']
+ ['.' '.' 'F' 'D' 'D' '.']]
+
+Car fuel available: I:100; D:100; J:100; C:100; E:100; F:100; A:100; B:100; G:100; H:100; 
+
+Runtime: 1.4259967803955078
+Search path length: 995
+Solution path length: 38
+Solution path: | B  left 1| I    up 1| J    up 1| D right 1| H  down 1| C right 3| E  down 3| A  left 1| F    up 3| C  left 2| I  down 1| J  down 2| B right 2| F    up 1| A right 1| E    up 3| C  left 1| H    up 1| D  left 3| H  down 1| C right 1| E  down 3| A  left 1| F  down 1| B  left 3| G    up 1| I    up 1| J    up 2| C right 2| F  down 2| A right 2| E    up 2| D  left 1| F  down 1| C  left 2| I  down 3| J  down 3| A right 2
+
+ B  left 1		99 EBBB..E..GIJEAAGIJCCCHIJ..FH....FDD. 
+ I    up 1		99 EBBBI.E..GIJEAAGIJCCCH.J..FH....FDD. 
+ J    up 1		99 EBBBIJE..GIJEAAGIJCCCH....FH....FDD. 
+ D right 1		99 EBBBIJE..GIJEAAGIJCCCH....FH....F.DD 
+ H  down 1		99 EBBBIJE..GIJEAAGIJCCC.....FH....FHDD 
+ C right 3		97 EBBBIJE..GIJEAAGIJ...CCC..FH....FHDD 
+ E  down 3		97 .BBBIJ...GIJ.AAGIJE..CCCE.FH..E.FHDD 
+ A  left 1		99 .BBBIJ...GIJAA.GIJE..CCCE.FH..E.FHDD 
+ F    up 3		97 .BBBIJ..FGIJAAFGIJE..CCCE..H..E..HDD 
+ C  left 2		98 .BBBIJ..FGIJAAFGIJECCC..E..H..E..HDD 
+ I  down 1		99 .BBB.J..FGIJAAFGIJECCCI.E..H..E..HDD 
+ J  down 2		98 .BBB....FGI.AAFGIJECCCIJE..H.JE..HDD 
+ B right 2		98 ...BBB..FGI.AAFGIJECCCIJE..H.JE..HDD 
+ F    up 1		99 ..FBBB..FGI.AA.GIJECCCIJE..H.JE..HDD 
+ A right 1		99 ..FBBB..FGI..AAGIJECCCIJE..H.JE..HDD 
+ E    up 3		97 E.FBBBE.FGI.EAAGIJ.CCCIJ...H.J...HDD 
+ C  left 1		99 E.FBBBE.FGI.EAAGIJCCC.IJ...H.J...HDD 
+ H    up 1		99 E.FBBBE.FGI.EAAGIJCCCHIJ...H.J....DD 
+ D  left 3		97 E.FBBBE.FGI.EAAGIJCCCHIJ...H.J.DD... 
+ H  down 1		99 E.FBBBE.FGI.EAAGIJCCC.IJ...H.J.DDH.. 
+ C right 1		99 E.FBBBE.FGI.EAAGIJ.CCCIJ...H.J.DDH.. 
+ E  down 3		97 ..FBBB..FGI..AAGIJECCCIJE..H.JEDDH.. 
+ A  left 1		99 ..FBBB..FGI.AA.GIJECCCIJE..H.JEDDH.. 
+ F  down 1		99 ...BBB..FGI.AAFGIJECCCIJE..H.JEDDH.. 
+ B  left 3		97 BBB.....FGI.AAFGIJECCCIJE..H.JEDDH.. 
+ G    up 1		99 BBBG....FGI.AAF.IJECCCIJE..H.JEDDH.. 
+ I    up 1		99 BBBGI...FGI.AAF.IJECCC.JE..H.JEDDH.. 
+ J    up 2		98 BBBGIJ..FGIJAAF.IJECCC..E..H..EDDH.. 
+ C right 2		98 BBBGIJ..FGIJAAF.IJE..CCCE..H..EDDH.. 
+ F  down 2		98 BBBGIJ...GIJAA..IJE.FCCCE.FH..EDDH.. 
+ A right 2		98 BBBGIJ...GIJ..AAIJE.FCCCE.FH..EDDH.. 
+ E    up 2		98 BBBGIJE..GIJE.AAIJE.FCCC..FH...DDH.. 
+ D  left 1		99 BBBGIJE..GIJE.AAIJE.FCCC..FH..DD.H.. 
+ F  down 1		99 BBBGIJE..GIJE.AAIJE..CCC..FH..DDFH.. 
+ C  left 2		98 BBBGIJE..GIJE.AAIJECCC....FH..DDFH.. 
+ I  down 3		97 BBBG.JE..G.JE.AA.JECCCI...FHI.DDFHI. 
+ J  down 3		97 BBBG..E..G..E.AA..ECCCIJ..FHIJDDFHIJ 
+ A right 2		98 BBBG..E..G..E...AAECCCIJ..FHIJDDFHIJ 
+
+A93 B94 C89 D95 E89 F92 G99 H97 I94 J92 
+[['B' 'B' 'B' 'G' '.' '.']
+ ['E' '.' '.' 'G' '.' '.']
+ ['E' '.' '.' '.' 'A' 'A']
+ ['E' 'C' 'C' 'C' 'I' 'J']
+ ['.' '.' 'F' 'H' 'I' 'J']
+ ['D' 'D' 'F' 'H' 'I' 'J']]

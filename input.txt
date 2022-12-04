@@ -1,0 +1,149 @@
+# puzzle 1
+BBJ...H.JDDMHAA..MH.KEEMI.KLFFIGGL.. 
+
+# puzzle 2
+E.BBB.E..GIJEAAGIJCCCHIJ..FH....FDD. 
+
+# puzzle 3
+...ICC..HI..AAHJ.KDDDJ.KFGEE.KFG.... 
+
+# puzzle 4
+.....L..ICCLG.IAAMG.JDDMH.JKEEHFFK.. 
+
+# puzzle 5
+HIBBCCHIDDL.HAAKL.EEEKL...JFF...JGG. 
+
+# puzzle 6
+......DD.LEEJAAL.MJ.KFFMGGK..MHHHII. 
+
+# puzzle 7
+BBH..KG.HJ.KGAAJ..CCIJDD..IEELFFF..L 
+
+# puzzle 8
+BBIJ....IJCC..IAAMGDDK.MGH.KL.GHFFL. 
+
+# puzzle 9
+......CCI..L.HIAAL.HDDKL.EEJK....JGG 
+
+# puzzle 10
+BBBK..DD.K..IAAK.LI.JEELFFJ......HH. 
+
+# puzzle 11
+BBBK..DD.K..IAAK.LI.JEELFFJ......HH. 
+
+# puzzle 12
+H...CCH.JKDDAAJKLMEEFFLM.I.GG..I.... 
+
+# puzzle 13
+BBBIKMCC.IKMAA.JLNGDDJLNG.HEENFFH... 
+
+# puzzle 14
+G.I...G.IJCCAAIJ...HDD.K.HEE.KFFF..K 
+
+# puzzle 15
+..CC.MDD.K.MAA.K.NIEEL.NI.JLGGHHJ... 
+
+# puzzle 16
+..JCCCH.JK.LHAAK.LDDEE.L.IFF...I.... 
+
+# puzzle 17
+KBBCC.K..NEELAAN.OL.GG.O..M.HHIIMJJJ 
+
+# puzzle 18
+..K.CCDDK..M..KAAMJ..LEEJFFL...GG.II 
+
+# puzzle 19
+BBCC..EEK..M..KAAMJ.KLFFJGGL......II 
+
+# puzzle 20
+BBBKMNCC.KMNAA.L..IDDLEEI.JFF.HHJ... 
+
+# puzzle 21
+.BBBCCDDJ..LI.JAALIEEE.LI..KFF.HHK.. 
+
+# puzzle 22
+...JCC..IJ..AAIK.LDDDK.L.HEE.L.HGG.. 
+
+# puzzle 23
+BBCCCLI....LI..AAMDDEEKMFFJ.KM..JHHH 
+
+# puzzle 24
+HBBL..H.JLCCI.JAAMI.KDDM..KEEN.FF..N 
+
+# puzzle 25
+......CCI..LH.IAALHDDK.LEEJK....JGGG 
+
+# puzzle 26
+HIBBCCHI.DD.HAAKL.FFFKL...J.LM..JGGM 
+
+# puzzle 27
+BBH...F.HCCCFAAIJKDD.IJKG..I.LGEEE.L 
+
+# puzzle 28
+.JBBCC.JK.M.AAK.MNIDDL.NIFFL.NGGHH.. 
+
+# puzzle 29
+.HI.BB.HI..LAAI..LGCCDDLGEEJK.FFFJK. 
+
+# puzzle 30
+BBJ....IJCC..IAAM.DDK.M.H.KL.NHGGL.N 
+
+# puzzle 31
+F..BBBF..H.KAA.HJKCCCIJK..GIDDEEG... 
+
+# puzzle 32
+HBBB.MHCCJ.MAAIJLMDDIKL....KEEFFGG.. 
+
+# puzzle 33
+...JCCGH.JK.GHAAK.DDI.L...I.L.FFF.L. 
+
+# puzzle 34
+BB..DDK..MEEKAAM.NKFFGGN..L.HHIILJJJ 
+
+# puzzle 35
+..HBBLCCHIKLGAAIK.G.DD..FFFJ.....J.. 
+
+# puzzle 36
+BBK...J.KDDNJAAM.NEELMFF..LGGG.II... 
+
+# puzzle 37
+G..IBBGCCI.K..HAAK..HDD.FFFJ.....J.. 
+
+# puzzle 38
+.BBBCCDDK..MJ.KAAMJEEE.MJFFLGG.IIL.. 
+
+# puzzle 39
+BBBI..G..IKLGAAJKLCCHJKM..HDDM.EEE.. 
+
+# puzzle 40
+BBK...IJKDDNIJAA.NEELM....LMGGHHH... 
+
+# puzzle 41
+..CCCLDDJ..L..JAALI.JKEEIFFK...GG... 
+
+# puzzle 42
+BBK...IJKDDNIJAA.NEELM....LMGGHHH... 
+
+# puzzle 43
+..HBBLCCHI.LGAAIK.G.DDK.FFFJK....J.. 
+
+# puzzle 44
+.HBBLM.HI.LMG.IAANGDDK.NG.JK.NEEJFFF 
+
+# puzzle 45
+BBCCCMDDEE.MAA...NJFFL.NJ.KLGGJ.KHH. 
+
+# puzzle 46
+FGBBJ.FG.IJLFAAIKL..H.KM..HCCMDDEEEM 
+
+# puzzle 47
+...J..CCCJL.AAI.L...IDD.H..KFFHGGK.. 
+
+# puzzle 48
+.CCIKM..HIKMAAH.L.FGDDL.FG.JL.EE.J.. 
+
+# puzzle 49
+..IBBMCCIJLMHAAJL.H.DD..FFFK..GG.K.. 
+
+# puzzle 50
+H.BBB.HCCJL.AAIJL.DDIKL....KEE.FFGG. 

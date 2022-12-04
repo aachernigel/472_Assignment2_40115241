@@ -1,0 +1,77 @@
+Initial board configuration: E.BBB.E..GIJEAAGIJCCCHIJ..FH....FDD.
+
+[['E' '.' 'B' 'B' 'B' '.']
+ ['E' '.' '.' 'G' 'I' 'J']
+ ['E' 'A' 'A' 'G' 'I' 'J']
+ ['C' 'C' 'C' 'H' 'I' 'J']
+ ['.' '.' 'F' 'H' '.' '.']
+ ['.' '.' 'F' 'D' 'D' '.']]
+
+Car fuel available: I:100; D:100; J:100; C:100; E:100; F:100; A:100; B:100; G:100; H:100; 
+
+Runtime: 0.6410000324249268
+Search path length: 546
+Solution path length: 53
+Solution path: | J  down 2| B  left 1| J    up 3| D right 1| H  down 1| I  down 1| C right 1| J  down 2| I    up 2| C right 1| J    up 2| C right 1| F    up 1| E  down 3| A  left 1| F    up 2| C  left 2| J  down 2| I  down 2| J    up 1| I    up 1| B right 2| F    up 1| J  down 1| I  down 1| A right 1| E    up 3| C  left 1| H    up 1| D  left 4| J  down 1| I  down 1| D right 1| H  down 1| C right 1| E  down 3| A  left 1| F  down 1| B  left 3| G    up 1| I    up 3| C right 1| J    up 3| C right 1| F  down 2| A right 2| E    up 2| D  left 1| F  down 1| C  left 2| J  down 3| I  down 3| A right 2
+
+ J  down 2		98 E.BBB.E..GI.EAAGI.CCCHIJ..FH.J..FDDJ 
+ B  left 1		99 EBBB..E..GI.EAAGI.CCCHIJ..FH.J..FDDJ 
+ J    up 3		97 EBBB.JE..GIJEAAGIJCCCHI...FH....FDD. 
+ D right 1		99 EBBB.JE..GIJEAAGIJCCCHI...FH....F.DD 
+ H  down 1		99 EBBB.JE..GIJEAAGIJCCC.I...FH....FHDD 
+ I  down 1		99 EBBB.JE..G.JEAAGIJCCC.I...FHI...FHDD 
+ C right 1		99 EBBB.JE..G.JEAAGIJ.CCCI...FHI...FHDD 
+ J  down 2		98 EBBB..E..G..EAAGIJ.CCCIJ..FHIJ..FHDD 
+ I    up 2		98 EBBBI.E..GI.EAAGIJ.CCC.J..FH.J..FHDD 
+ C right 1		99 EBBBI.E..GI.EAAGIJ..CCCJ..FH.J..FHDD 
+ J    up 2		98 EBBBIJE..GIJEAAGIJ..CCC...FH....FHDD 
+ C right 1		99 EBBBIJE..GIJEAAGIJ...CCC..FH....FHDD 
+ F    up 1		99 EBBBIJE..GIJEAAGIJ..FCCC..FH.....HDD 
+ E  down 3		97 .BBBIJ...GIJ.AAGIJE.FCCCE.FH..E..HDD 
+ A  left 1		99 .BBBIJ...GIJAA.GIJE.FCCCE.FH..E..HDD 
+ F    up 2		98 .BBBIJ..FGIJAAFGIJE..CCCE..H..E..HDD 
+ C  left 2		98 .BBBIJ..FGIJAAFGIJECCC..E..H..E..HDD 
+ J  down 2		98 .BBBI...FGI.AAFGIJECCC.JE..H.JE..HDD 
+ I  down 2		98 .BBB....FG..AAFGIJECCCIJE..HIJE..HDD 
+ J    up 1		99 .BBB....FG.JAAFGIJECCCIJE..HI.E..HDD 
+ I    up 1		99 .BBB....FGIJAAFGIJECCCIJE..H..E..HDD 
+ B right 2		98 ...BBB..FGIJAAFGIJECCCIJE..H..E..HDD 
+ F    up 1		99 ..FBBB..FGIJAA.GIJECCCIJE..H..E..HDD 
+ J  down 1		99 ..FBBB..FGI.AA.GIJECCCIJE..H.JE..HDD 
+ I  down 1		99 ..FBBB..FG..AA.GIJECCCIJE..HIJE..HDD 
+ A right 1		99 ..FBBB..FG...AAGIJECCCIJE..HIJE..HDD 
+ E    up 3		97 E.FBBBE.FG..EAAGIJ.CCCIJ...HIJ...HDD 
+ C  left 1		99 E.FBBBE.FG..EAAGIJCCC.IJ...HIJ...HDD 
+ H    up 1		99 E.FBBBE.FG..EAAGIJCCCHIJ...HIJ....DD 
+ D  left 4		96 E.FBBBE.FG..EAAGIJCCCHIJ...HIJDD.... 
+ J  down 1		99 E.FBBBE.FG..EAAGI.CCCHIJ...HIJDD...J 
+ I  down 1		99 E.FBBBE.FG..EAAG..CCCHIJ...HIJDD..IJ 
+ D right 1		99 E.FBBBE.FG..EAAG..CCCHIJ...HIJ.DD.IJ 
+ H  down 1		99 E.FBBBE.FG..EAAG..CCC.IJ...HIJ.DDHIJ 
+ C right 1		99 E.FBBBE.FG..EAAG...CCCIJ...HIJ.DDHIJ 
+ E  down 3		97 ..FBBB..FG...AAG..ECCCIJE..HIJEDDHIJ 
+ A  left 1		99 ..FBBB..FG..AA.G..ECCCIJE..HIJEDDHIJ 
+ F  down 1		99 ...BBB..FG..AAFG..ECCCIJE..HIJEDDHIJ 
+ B  left 3		97 BBB.....FG..AAFG..ECCCIJE..HIJEDDHIJ 
+ G    up 1		99 BBBG....FG..AAF...ECCCIJE..HIJEDDHIJ 
+ I    up 3		97 BBBGI...FGI.AAF.I.ECCC.JE..H.JEDDH.J 
+ C right 1		99 BBBGI...FGI.AAF.I.E.CCCJE..H.JEDDH.J 
+ J    up 3		97 BBBGIJ..FGIJAAF.IJE.CCC.E..H..EDDH.. 
+ C right 1		99 BBBGIJ..FGIJAAF.IJE..CCCE..H..EDDH.. 
+ F  down 2		98 BBBGIJ...GIJAA..IJE.FCCCE.FH..EDDH.. 
+ A right 2		98 BBBGIJ...GIJ..AAIJE.FCCCE.FH..EDDH.. 
+ E    up 2		98 BBBGIJE..GIJE.AAIJE.FCCC..FH...DDH.. 
+ D  left 1		99 BBBGIJE..GIJE.AAIJE.FCCC..FH..DD.H.. 
+ F  down 1		99 BBBGIJE..GIJE.AAIJE..CCC..FH..DDFH.. 
+ C  left 2		98 BBBGIJE..GIJE.AAIJECCC....FH..DDFH.. 
+ J  down 3		97 BBBGI.E..GI.E.AAI.ECCC.J..FH.JDDFH.J 
+ I  down 3		97 BBBG..E..G..E.AA..ECCCIJ..FHIJDDFHIJ 
+ A right 2		98 BBBG..E..G..E...AAECCCIJ..FHIJDDFHIJ 
+
+A93 B94 C89 D93 E89 F92 G99 H97 I86 J80 
+[['B' 'B' 'B' 'G' '.' '.']
+ ['E' '.' '.' 'G' '.' '.']
+ ['E' '.' '.' '.' 'A' 'A']
+ ['E' 'C' 'C' 'C' 'I' 'J']
+ ['.' '.' 'F' 'H' 'I' 'J']
+ ['D' 'D' 'F' 'H' 'I' 'J']]

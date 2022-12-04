@@ -1,0 +1,42 @@
+Initial board configuration: BBCCCMDDEE.MAA...NJFFL.NJ.KLGGJ.KHH.
+
+[['B' 'B' 'C' 'C' 'C' 'M']
+ ['D' 'D' 'E' 'E' '.' 'M']
+ ['A' 'A' '.' '.' '.' 'N']
+ ['J' 'F' 'F' 'L' '.' 'N']
+ ['J' '.' 'K' 'L' 'G' 'G']
+ ['J' '.' 'K' 'H' 'H' '.']]
+
+Car fuel available: N:100; M:100; D:100; J:100; C:100; E:100; F:100; L:100; A:100; B:100; K:100; G:100; H:100; 
+
+Runtime: 4.50299334526062
+Search path length: 1608
+Solution path length: 18
+Solution path: | E right 1| H right 1| L  down 1| F right 2| K    up 3| F  left 2| L    up 2| G  left 3| N  down 1| M  down 1| C right 1| L  down 2| K    up 1| A right 3| K  down 1| C  left 1| M    up 1| A right 1
+
+ E right 1		99 BBCCCMDD.EEMAA...NJFFL.NJ.KLGGJ.KHH. 
+ H right 1		99 BBCCCMDD.EEMAA...NJFFL.NJ.KLGGJ.K.HH 
+ L  down 1		99 BBCCCMDD.EEMAA...NJFF..NJ.KLGGJ.KLHH 
+ F right 2		98 BBCCCMDD.EEMAA...NJ..FFNJ.KLGGJ.KLHH 
+ K    up 3		97 BBCCCMDDKEEMAAK..NJ..FFNJ..LGGJ..LHH 
+ F  left 2		98 BBCCCMDDKEEMAAK..NJFF..NJ..LGGJ..LHH 
+ L    up 2		98 BBCCCMDDKEEMAAKL.NJFFL.NJ...GGJ...HH 
+ G  left 3		97 BBCCCMDDKEEMAAKL.NJFFL.NJGG...J...HH 
+ N  down 1		99 BBCCCMDDKEEMAAKL..JFFL.NJGG..NJ...HH 
+ M  down 1		99 BBCCC.DDKEEMAAKL.MJFFL.NJGG..NJ...HH 
+ C right 1		99 BB.CCCDDKEEMAAKL.MJFFL.NJGG..NJ...HH 
+ L  down 2		98 BB.CCCDDKEEMAAK..MJFF..NJGGL.NJ..LHH 
+ K    up 1		99 BBKCCCDDKEEMAA...MJFF..NJGGL.NJ..LHH 
+ A right 3		97 BBKCCCDDKEEM...AAMJFF..NJGGL.NJ..LHH 
+ K  down 1		99 BB.CCCDDKEEM..KAAMJFF..NJGGL.NJ..LHH 
+ C  left 1		99 BBCCC.DDKEEM..KAAMJFF..NJGGL.NJ..LHH 
+ M    up 1		99 BBCCCMDDKEEM..KAA.JFF..NJGGL.NJ..LHH 
+ A right 1		99 BBCCCMDDKEEM..K.AAJFF..NJGGL.NJ..LHH 
+
+A96 C98 E99 F96 G97 H99 K95 L95 M98 N99 
+[['B' 'B' 'C' 'C' 'C' 'M']
+ ['D' 'D' 'K' 'E' 'E' 'M']
+ ['.' '.' 'K' '.' 'A' 'A']
+ ['J' 'F' 'F' '.' '.' 'N']
+ ['J' 'G' 'G' 'L' '.' 'N']
+ ['J' '.' '.' 'L' 'H' 'H']]

@@ -1,0 +1,48 @@
+Initial board configuration: ..IBBMCCIJLMHAAJL.H.DD..FFFK..GG.K..
+
+[['.' '.' 'I' 'B' 'B' 'M']
+ ['C' 'C' 'I' 'J' 'L' 'M']
+ ['H' 'A' 'A' 'J' 'L' '.']
+ ['H' '.' 'D' 'D' '.' '.']
+ ['F' 'F' 'F' 'K' '.' '.']
+ ['G' 'G' '.' 'K' '.' '.']]
+
+Car fuel available: I:100; M:100; D:100; J:100; C:100; F:100; L:100; A:100; B:100; K:100; G:100; H:100; 
+
+Runtime: 0.07200956344604492
+Search path length: 24
+Solution path length: 24
+Solution path: | D  left 1| M  down 4| G right 1| M    up 3| L  down 3| G  left 1| L    up 2| M  down 2| G right 1| M    up 1| L  down 1| G  left 1| B right 1| L  down 1| G right 1| L    up 3| M  down 1| G  left 1| M    up 2| J    up 1| G right 1| M  down 3| L  down 3| A right 3
+
+ D  left 1		99 ..IBBMCCIJLMHAAJL.HDD...FFFK..GG.K.. 
+ M  down 4		96 ..IBB.CCIJL.HAAJL.HDD...FFFK.MGG.K.M 
+ G right 1		99 ..IBB.CCIJL.HAAJL.HDD...FFFK.M.GGK.M 
+ M    up 3		97 ..IBB.CCIJLMHAAJLMHDD...FFFK...GGK.. 
+ L  down 3		97 ..IBB.CCIJ.MHAAJ.MHDD...FFFKL..GGKL. 
+ G  left 1		99 ..IBB.CCIJ.MHAAJ.MHDD...FFFKL.GG.KL. 
+ L    up 2		98 ..IBB.CCIJ.MHAAJLMHDD.L.FFFK..GG.K.. 
+ M  down 2		98 ..IBB.CCIJ..HAAJL.HDD.LMFFFK.MGG.K.. 
+ G right 1		99 ..IBB.CCIJ..HAAJL.HDD.LMFFFK.M.GGK.. 
+ M    up 1		99 ..IBB.CCIJ..HAAJLMHDD.LMFFFK...GGK.. 
+ L  down 1		99 ..IBB.CCIJ..HAAJ.MHDD.LMFFFKL..GGK.. 
+ G  left 1		99 ..IBB.CCIJ..HAAJ.MHDD.LMFFFKL.GG.K.. 
+ B right 1		99 ..I.BBCCIJ..HAAJ.MHDD.LMFFFKL.GG.K.. 
+ L  down 1		99 ..I.BBCCIJ..HAAJ.MHDD..MFFFKL.GG.KL. 
+ G right 1		99 ..I.BBCCIJ..HAAJ.MHDD..MFFFKL..GGKL. 
+ L    up 3		97 ..I.BBCCIJL.HAAJLMHDD..MFFFK...GGK.. 
+ M  down 1		99 ..I.BBCCIJL.HAAJL.HDD..MFFFK.M.GGK.. 
+ G  left 1		99 ..I.BBCCIJL.HAAJL.HDD..MFFFK.MGG.K.. 
+ M    up 2		98 ..I.BBCCIJLMHAAJLMHDD...FFFK..GG.K.. 
+ J    up 1		99 ..IJBBCCIJLMHAA.LMHDD...FFFK..GG.K.. 
+ G right 1		99 ..IJBBCCIJLMHAA.LMHDD...FFFK...GGK.. 
+ M  down 3		97 ..IJBBCCIJL.HAA.L.HDD...FFFK.M.GGK.M 
+ L  down 3		97 ..IJBBCCIJ..HAA...HDD...FFFKLM.GGKLM 
+ A right 3		97 ..IJBBCCIJ..H...AAHDD...FFFKLM.GGKLM 
+
+A97 B99 D99 G93 J99 L87 M84 
+[['.' '.' 'I' 'J' 'B' 'B']
+ ['C' 'C' 'I' 'J' '.' '.']
+ ['H' '.' '.' '.' 'A' 'A']
+ ['H' 'D' 'D' '.' '.' '.']
+ ['F' 'F' 'F' 'K' 'L' 'M']
+ ['.' 'G' 'G' 'K' 'L' 'M']]

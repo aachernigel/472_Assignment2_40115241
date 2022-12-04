@@ -1,0 +1,143 @@
+Initial board configuration: H.BBB.HCCJL.AAIJL.DDIKL....KEE.FFGG.
+
+[['H' '.' 'B' 'B' 'B' '.']
+ ['H' 'C' 'C' 'J' 'L' '.']
+ ['A' 'A' 'I' 'J' 'L' '.']
+ ['D' 'D' 'I' 'K' 'L' '.']
+ ['.' '.' '.' 'K' 'E' 'E']
+ ['.' 'F' 'F' 'G' 'G' '.']]
+
+Car fuel available: I:100; D:100; J:100; C:100; L:100; E:100; F:100; A:100; B:100; K:100; G:100; H:100; 
+
+Runtime: 5.290030479431152
+Search path length: 2351
+Solution path length: 119
+Solution path: | I  down 1| G right 1| F right 1| A right 1| F  left 2| G  left 2| A  left 1| B right 1| G right 2| K  down 1| F right 1| J  down 1| A right 1| F  left 1| I  down 1| D right 1| J    up 1| K    up 1| G  left 1| D  left 1| I    up 1| F right 1| G right 1| H  down 1| F right 1| B  left 3| J    up 1| F  left 2| G  left 2| A right 1| G right 1| F right 1| G right 1| K  down 1| F  left 1| I  down 1| K    up 1| D right 1| G  left 1| A  left 1| D  left 1| L    up 1| G right 1| K  down 1| D right 4| K    up 1| H  down 1| K    up 1| E  left 1| G  left 1| I    up 1| G  left 1| H  down 1| G right 2| F right 2| H  down 1| F  left 1| G  left 1| H    up 1| A  left 1| I    up 1| E  left 2| K  down 1| C  left 1| J  down 1| B right 1| G right 1| F right 1| H  down 1| I    up 1| F  left 1| K  down 1| H    up 1| F  left 1| D  left 3| K    up 1| G  left 1| F right 1| H  down 1| G right 1| F right 1| D  left 1| L  down 2| F  left 1| G  left 1| L    up 1| I  down 1| G right 1| F right 1| C right 1| L  down 1| F  left 1| G  left 1| B right 2| L    up 1| G right 1| K  down 1| L  down 1| J  down 1| C right 3| I    up 2| D right 1| H    up 1| F  left 1| J    up 1| K    up 1| G  left 2| L  down 1| A right 1| H    up 3| E  left 1| D  left 1| A  left 1| I  down 3| A right 1| H  down 1| B  left 3| J    up 1| A right 3
+
+ I  down 1		99 H.BBB.HCCJL.AA.JL.DDIKL...IKEE.FFGG. 
+ G right 1		99 H.BBB.HCCJL.AA.JL.DDIKL...IKEE.FF.GG 
+ F right 1		99 H.BBB.HCCJL.AA.JL.DDIKL...IKEE..FFGG 
+ A right 1		99 H.BBB.HCCJL..AAJL.DDIKL...IKEE..FFGG 
+ F  left 2		98 H.BBB.HCCJL..AAJL.DDIKL...IKEEFF..GG 
+ G  left 2		98 H.BBB.HCCJL..AAJL.DDIKL...IKEEFFGG.. 
+ A  left 1		99 H.BBB.HCCJL.AA.JL.DDIKL...IKEEFFGG.. 
+ B right 1		99 H..BBBHCCJL.AA.JL.DDIKL...IKEEFFGG.. 
+ G right 2		98 H..BBBHCCJL.AA.JL.DDIKL...IKEEFF..GG 
+ K  down 1		99 H..BBBHCCJL.AA.JL.DDI.L...IKEEFF.KGG 
+ F right 1		99 H..BBBHCCJL.AA.JL.DDI.L...IKEE.FFKGG 
+ J  down 1		99 H..BBBHCC.L.AA.JL.DDIJL...IKEE.FFKGG 
+ A right 1		99 H..BBBHCC.L..AAJL.DDIJL...IKEE.FFKGG 
+ F  left 1		99 H..BBBHCC.L..AAJL.DDIJL...IKEEFF.KGG 
+ I  down 1		99 H..BBBHCC.L..AAJL.DD.JL...IKEEFFIKGG 
+ D right 1		99 H..BBBHCC.L..AAJL..DDJL...IKEEFFIKGG 
+ J    up 1		99 H..BBBHCCJL..AAJL..DD.L...IKEEFFIKGG 
+ K    up 1		99 H..BBBHCCJL..AAJL..DDKL...IKEEFFI.GG 
+ G  left 1		99 H..BBBHCCJL..AAJL..DDKL...IKEEFFIGG. 
+ D  left 1		99 H..BBBHCCJL..AAJL.DD.KL...IKEEFFIGG. 
+ I    up 1		99 H..BBBHCCJL..AAJL.DDIKL...IKEEFF.GG. 
+ F right 1		99 H..BBBHCCJL..AAJL.DDIKL...IKEE.FFGG. 
+ G right 1		99 H..BBBHCCJL..AAJL.DDIKL...IKEE.FF.GG 
+ H  down 1		99 ...BBBHCCJL.HAAJL.DDIKL...IKEE.FF.GG 
+ F right 1		99 ...BBBHCCJL.HAAJL.DDIKL...IKEE..FFGG 
+ B  left 3		97 BBB...HCCJL.HAAJL.DDIKL...IKEE..FFGG 
+ J    up 1		99 BBBJ..HCCJL.HAA.L.DDIKL...IKEE..FFGG 
+ F  left 2		98 BBBJ..HCCJL.HAA.L.DDIKL...IKEEFF..GG 
+ G  left 2		98 BBBJ..HCCJL.HAA.L.DDIKL...IKEEFFGG.. 
+ A right 1		99 BBBJ..HCCJL.H.AAL.DDIKL...IKEEFFGG.. 
+ G right 1		99 BBBJ..HCCJL.H.AAL.DDIKL...IKEEFF.GG. 
+ F right 1		99 BBBJ..HCCJL.H.AAL.DDIKL...IKEE.FFGG. 
+ G right 1		99 BBBJ..HCCJL.H.AAL.DDIKL...IKEE.FF.GG 
+ K  down 1		99 BBBJ..HCCJL.H.AAL.DDI.L...IKEE.FFKGG 
+ F  left 1		99 BBBJ..HCCJL.H.AAL.DDI.L...IKEEFF.KGG 
+ I  down 1		99 BBBJ..HCCJL.H.AAL.DD..L...IKEEFFIKGG 
+ K    up 1		99 BBBJ..HCCJL.H.AAL.DD.KL...IKEEFFI.GG 
+ D right 1		99 BBBJ..HCCJL.H.AAL..DDKL...IKEEFFI.GG 
+ G  left 1		99 BBBJ..HCCJL.H.AAL..DDKL...IKEEFFIGG. 
+ A  left 1		99 BBBJ..HCCJL.HAA.L..DDKL...IKEEFFIGG. 
+ D  left 1		99 BBBJ..HCCJL.HAA.L.DD.KL...IKEEFFIGG. 
+ L    up 1		99 BBBJL.HCCJL.HAA.L.DD.K....IKEEFFIGG. 
+ G right 1		99 BBBJL.HCCJL.HAA.L.DD.K....IKEEFFI.GG 
+ K  down 1		99 BBBJL.HCCJL.HAA.L.DD......IKEEFFIKGG 
+ D right 4		96 BBBJL.HCCJL.HAA.L.....DD..IKEEFFIKGG 
+ K    up 1		99 BBBJL.HCCJL.HAA.L....KDD..IKEEFFI.GG 
+ H  down 1		99 BBBJL..CCJL.HAA.L.H..KDD..IKEEFFI.GG 
+ K    up 1		99 BBBJL..CCJL.HAAKL.H..KDD..I.EEFFI.GG 
+ E  left 1		99 BBBJL..CCJL.HAAKL.H..KDD..IEE.FFI.GG 
+ G  left 1		99 BBBJL..CCJL.HAAKL.H..KDD..IEE.FFIGG. 
+ I    up 1		99 BBBJL..CCJL.HAAKL.H.IKDD..IEE.FF.GG. 
+ G  left 1		99 BBBJL..CCJL.HAAKL.H.IKDD..IEE.FFGG.. 
+ H  down 1		99 BBBJL..CCJL..AAKL.H.IKDDH.IEE.FFGG.. 
+ G right 2		98 BBBJL..CCJL..AAKL.H.IKDDH.IEE.FF..GG 
+ F right 2		98 BBBJL..CCJL..AAKL.H.IKDDH.IEE...FFGG 
+ H  down 1		99 BBBJL..CCJL..AAKL...IKDDH.IEE.H.FFGG 
+ F  left 1		99 BBBJL..CCJL..AAKL...IKDDH.IEE.HFF.GG 
+ G  left 1		99 BBBJL..CCJL..AAKL...IKDDH.IEE.HFFGG. 
+ H    up 1		99 BBBJL..CCJL..AAKL.H.IKDDH.IEE..FFGG. 
+ A  left 1		99 BBBJL..CCJL.AA.KL.H.IKDDH.IEE..FFGG. 
+ I    up 1		99 BBBJL..CCJL.AAIKL.H.IKDDH..EE..FFGG. 
+ E  left 2		98 BBBJL..CCJL.AAIKL.H.IKDDHEE....FFGG. 
+ K  down 1		99 BBBJL..CCJL.AAI.L.H.IKDDHEEK...FFGG. 
+ C  left 1		99 BBBJL.CC.JL.AAI.L.H.IKDDHEEK...FFGG. 
+ J  down 1		99 BBB.L.CC.JL.AAIJL.H.IKDDHEEK...FFGG. 
+ B right 1		99 .BBBL.CC.JL.AAIJL.H.IKDDHEEK...FFGG. 
+ G right 1		99 .BBBL.CC.JL.AAIJL.H.IKDDHEEK...FF.GG 
+ F right 1		99 .BBBL.CC.JL.AAIJL.H.IKDDHEEK....FFGG 
+ H  down 1		99 .BBBL.CC.JL.AAIJL...IKDDHEEK..H.FFGG 
+ I    up 1		99 .BBBL.CCIJL.AAIJL....KDDHEEK..H.FFGG 
+ F  left 1		99 .BBBL.CCIJL.AAIJL....KDDHEEK..HFF.GG 
+ K  down 1		99 .BBBL.CCIJL.AAIJL.....DDHEEK..HFFKGG 
+ H    up 1		99 .BBBL.CCIJL.AAIJL.H...DDHEEK...FFKGG 
+ F  left 1		99 .BBBL.CCIJL.AAIJL.H...DDHEEK..FF.KGG 
+ D  left 3		97 .BBBL.CCIJL.AAIJL.HDD...HEEK..FF.KGG 
+ K    up 1		99 .BBBL.CCIJL.AAIJL.HDDK..HEEK..FF..GG 
+ G  left 1		99 .BBBL.CCIJL.AAIJL.HDDK..HEEK..FF.GG. 
+ F right 1		99 .BBBL.CCIJL.AAIJL.HDDK..HEEK...FFGG. 
+ H  down 1		99 .BBBL.CCIJL.AAIJL..DDK..HEEK..HFFGG. 
+ G right 1		99 .BBBL.CCIJL.AAIJL..DDK..HEEK..HFF.GG 
+ F right 1		99 .BBBL.CCIJL.AAIJL..DDK..HEEK..H.FFGG 
+ D  left 1		99 .BBBL.CCIJL.AAIJL.DD.K..HEEK..H.FFGG 
+ L  down 2		98 .BBB..CCIJ..AAIJL.DD.KL.HEEKL.H.FFGG 
+ F  left 1		99 .BBB..CCIJ..AAIJL.DD.KL.HEEKL.HFF.GG 
+ G  left 1		99 .BBB..CCIJ..AAIJL.DD.KL.HEEKL.HFFGG. 
+ L    up 1		99 .BBB..CCIJL.AAIJL.DD.KL.HEEK..HFFGG. 
+ I  down 1		99 .BBB..CC.JL.AAIJL.DDIKL.HEEK..HFFGG. 
+ G right 1		99 .BBB..CC.JL.AAIJL.DDIKL.HEEK..HFF.GG 
+ F right 1		99 .BBB..CC.JL.AAIJL.DDIKL.HEEK..H.FFGG 
+ C right 1		99 .BBB...CCJL.AAIJL.DDIKL.HEEK..H.FFGG 
+ L  down 1		99 .BBB...CCJ..AAIJL.DDIKL.HEEKL.H.FFGG 
+ F  left 1		99 .BBB...CCJ..AAIJL.DDIKL.HEEKL.HFF.GG 
+ G  left 1		99 .BBB...CCJ..AAIJL.DDIKL.HEEKL.HFFGG. 
+ B right 2		98 ...BBB.CCJ..AAIJL.DDIKL.HEEKL.HFFGG. 
+ L    up 1		99 ...BBB.CCJL.AAIJL.DDIKL.HEEK..HFFGG. 
+ G right 1		99 ...BBB.CCJL.AAIJL.DDIKL.HEEK..HFF.GG 
+ K  down 1		99 ...BBB.CCJL.AAIJL.DDI.L.HEEK..HFFKGG 
+ L  down 1		99 ...BBB.CCJ..AAIJL.DDI.L.HEEKL.HFFKGG 
+ J  down 1		99 ...BBB.CC...AAIJL.DDIJL.HEEKL.HFFKGG 
+ C right 3		97 ...BBB....CCAAIJL.DDIJL.HEEKL.HFFKGG 
+ I    up 2		98 ..IBBB..I.CCAA.JL.DD.JL.HEEKL.HFFKGG 
+ D right 1		99 ..IBBB..I.CCAA.JL..DDJL.HEEKL.HFFKGG 
+ H    up 1		99 ..IBBB..I.CCAA.JL.HDDJL.HEEKL..FFKGG 
+ F  left 1		99 ..IBBB..I.CCAA.JL.HDDJL.HEEKL.FF.KGG 
+ J    up 1		99 ..IBBB..IJCCAA.JL.HDD.L.HEEKL.FF.KGG 
+ K    up 1		99 ..IBBB..IJCCAA.JL.HDDKL.HEEKL.FF..GG 
+ G  left 2		98 ..IBBB..IJCCAA.JL.HDDKL.HEEKL.FFGG.. 
+ L  down 1		99 ..IBBB..IJCCAA.J..HDDKL.HEEKL.FFGGL. 
+ A right 1		99 ..IBBB..IJCC.AAJ..HDDKL.HEEKL.FFGGL. 
+ H    up 3		97 H.IBBBH.IJCC.AAJ...DDKL..EEKL.FFGGL. 
+ E  left 1		99 H.IBBBH.IJCC.AAJ...DDKL.EE.KL.FFGGL. 
+ D  left 1		99 H.IBBBH.IJCC.AAJ..DD.KL.EE.KL.FFGGL. 
+ A  left 1		99 H.IBBBH.IJCCAA.J..DD.KL.EE.KL.FFGGL. 
+ I  down 3		97 H..BBBH..JCCAA.J..DDIKL.EEIKL.FFGGL. 
+ A right 1		99 H..BBBH..JCC.AAJ..DDIKL.EEIKL.FFGGL. 
+ H  down 1		99 ...BBBH..JCCHAAJ..DDIKL.EEIKL.FFGGL. 
+ B  left 3		97 BBB...H..JCCHAAJ..DDIKL.EEIKL.FFGGL. 
+ J    up 1		99 BBBJ..H..JCCHAA...DDIKL.EEIKL.FFGGL. 
+ A right 3		97 BBBJ..H..JCCH...AADDIKL.EEIKL.FFGGL. 
+
+A88 B90 C95 D86 E96 F77 G73 H87 I87 J93 K88 L92 
+[['B' 'B' 'B' 'J' '.' '.']
+ ['H' '.' '.' 'J' 'C' 'C']
+ ['H' '.' '.' '.' 'A' 'A']
+ ['D' 'D' 'I' 'K' 'L' '.']
+ ['E' 'E' 'I' 'K' 'L' '.']
+ ['F' 'F' 'G' 'G' 'L' '.']]

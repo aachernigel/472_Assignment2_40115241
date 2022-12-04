@@ -1,0 +1,45 @@
+Initial board configuration: KBBCC.K..NEELAAN.OL.GG.O..M.HHIIMJJJ
+
+[['K' 'B' 'B' 'C' 'C' '.']
+ ['K' '.' '.' 'N' 'E' 'E']
+ ['L' 'A' 'A' 'N' '.' 'O']
+ ['L' '.' 'G' 'G' '.' 'O']
+ ['.' '.' 'M' '.' 'H' 'H']
+ ['I' 'I' 'M' 'J' 'J' 'J']]
+
+Car fuel available: I:100; N:100; M:100; J:100; C:100; E:100; L:100; A:100; B:100; K:100; O:100; G:100; H:100; 
+
+Runtime: 0.01699686050415039
+Search path length: 21
+Solution path length: 21
+Solution path: | H  left 1| O  down 1| G right 1| M    up 1| J  left 1| O  down 1| G right 1| L  down 1| N  down 1| A  left 1| E  left 3| N    up 1| G  left 1| O    up 4| J right 1| I right 1| H right 1| L  down 1| G right 1| N  down 2| A right 4
+
+ H  left 1		99 KBBCC.K..NEELAAN.OL.GG.O..MHH.IIMJJJ 
+ O  down 1		99 KBBCC.K..NEELAAN..L.GG.O..MHHOIIMJJJ 
+ G right 1		99 KBBCC.K..NEELAAN..L..GGO..MHHOIIMJJJ 
+ M    up 1		99 KBBCC.K..NEELAAN..L.MGGO..MHHOII.JJJ 
+ J  left 1		99 KBBCC.K..NEELAAN..L.MGGO..MHHOIIJJJ. 
+ O  down 1		99 KBBCC.K..NEELAAN..L.MGG...MHHOIIJJJO 
+ G right 1		99 KBBCC.K..NEELAAN..L.M.GG..MHHOIIJJJO 
+ L  down 1		99 KBBCC.K..NEE.AAN..L.M.GGL.MHHOIIJJJO 
+ N  down 1		99 KBBCC.K...EE.AAN..L.MNGGL.MHHOIIJJJO 
+ A  left 1		99 KBBCC.K...EEAA.N..L.MNGGL.MHHOIIJJJO 
+ E  left 3		97 KBBCC.KEE...AA.N..L.MNGGL.MHHOIIJJJO 
+ N    up 1		99 KBBCC.KEEN..AA.N..L.M.GGL.MHHOIIJJJO 
+ G  left 1		99 KBBCC.KEEN..AA.N..L.MGG.L.MHHOIIJJJO 
+ O    up 4		96 KBBCCOKEEN.OAA.N..L.MGG.L.MHH.IIJJJ. 
+ J right 1		99 KBBCCOKEEN.OAA.N..L.MGG.L.MHH.II.JJJ 
+ I right 1		99 KBBCCOKEEN.OAA.N..L.MGG.L.MHH..IIJJJ 
+ H right 1		99 KBBCCOKEEN.OAA.N..L.MGG.L.M.HH.IIJJJ 
+ L  down 1		99 KBBCCOKEEN.OAA.N....MGG.L.M.HHLIIJJJ 
+ G right 1		99 KBBCCOKEEN.OAA.N....M.GGL.M.HHLIIJJJ 
+ N  down 2		98 KBBCCOKEE..OAA......MNGGL.MNHHLIIJJJ 
+ A right 4		96 KBBCCOKEE..O....AA..MNGGL.MNHHLIIJJJ 
+
+A95 E97 G96 H98 I99 J98 L98 M99 N96 O94 
+[['K' 'B' 'B' 'C' 'C' 'O']
+ ['K' 'E' 'E' '.' '.' 'O']
+ ['.' '.' '.' '.' 'A' 'A']
+ ['.' '.' 'M' 'N' 'G' 'G']
+ ['L' '.' 'M' 'N' 'H' 'H']
+ ['L' 'I' 'I' 'J' 'J' 'J']]

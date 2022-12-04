@@ -1,0 +1,66 @@
+Initial board configuration: H.BBB.HCCJL.AAIJL.DDIKL....KEE.FFGG.
+
+[['H' '.' 'B' 'B' 'B' '.']
+ ['H' 'C' 'C' 'J' 'L' '.']
+ ['A' 'A' 'I' 'J' 'L' '.']
+ ['D' 'D' 'I' 'K' 'L' '.']
+ ['.' '.' '.' 'K' 'E' 'E']
+ ['.' 'F' 'F' 'G' 'G' '.']]
+
+Car fuel available: I:100; D:100; J:100; C:100; L:100; E:100; F:100; A:100; B:100; K:100; G:100; H:100; 
+
+Runtime: 19.361002445220947
+Search path length: 5123
+Solution path length: 42
+Solution path: | F  left 1| I  down 2| A right 1| D right 1| H  down 3| B  left 2| C  left 1| J    up 1| L    up 1| A  left 1| G right 1| K  down 1| D right 2| I    up 3| F right 1| H  down 1| D  left 3| I  down 1| K    up 2| E  left 3| L  down 2| K  down 2| J  down 2| B right 3| C right 4| I    up 2| A right 1| D right 1| H    up 4| A  left 1| D  left 1| E  left 1| I  down 3| A right 1| H  down 1| B  left 3| J    up 2| K    up 1| F  left 1| G  left 2| L  down 1| A right 3
+
+ F  left 1		99 H.BBB.HCCJL.AAIJL.DDIKL....KEEFF.GG. 
+ I  down 2		98 H.BBB.HCCJL.AA.JL.DD.KL...IKEEFFIGG. 
+ A right 1		99 H.BBB.HCCJL..AAJL.DD.KL...IKEEFFIGG. 
+ D right 1		99 H.BBB.HCCJL..AAJL..DDKL...IKEEFFIGG. 
+ H  down 3		97 ..BBB..CCJL..AAJL.HDDKL.H.IKEEFFIGG. 
+ B  left 2		98 BBB....CCJL..AAJL.HDDKL.H.IKEEFFIGG. 
+ C  left 1		99 BBB...CC.JL..AAJL.HDDKL.H.IKEEFFIGG. 
+ J    up 1		99 BBBJ..CC.JL..AA.L.HDDKL.H.IKEEFFIGG. 
+ L    up 1		99 BBBJL.CC.JL..AA.L.HDDK..H.IKEEFFIGG. 
+ A  left 1		99 BBBJL.CC.JL.AA..L.HDDK..H.IKEEFFIGG. 
+ G right 1		99 BBBJL.CC.JL.AA..L.HDDK..H.IKEEFFI.GG 
+ K  down 1		99 BBBJL.CC.JL.AA..L.HDD...H.IKEEFFIKGG 
+ D right 2		98 BBBJL.CC.JL.AA..L.H..DD.H.IKEEFFIKGG 
+ I    up 3		97 BBBJL.CCIJL.AAI.L.H..DD.H..KEEFF.KGG 
+ F right 1		99 BBBJL.CCIJL.AAI.L.H..DD.H..KEE.FFKGG 
+ H  down 1		99 BBBJL.CCIJL.AAI.L....DD.H..KEEHFFKGG 
+ D  left 3		97 BBBJL.CCIJL.AAI.L.DD....H..KEEHFFKGG 
+ I  down 1		99 BBBJL.CC.JL.AAI.L.DDI...H..KEEHFFKGG 
+ K    up 2		98 BBBJL.CC.JL.AAIKL.DDIK..H...EEHFF.GG 
+ E  left 3		97 BBBJL.CC.JL.AAIKL.DDIK..HEE...HFF.GG 
+ L  down 2		98 BBBJ..CC.J..AAIKL.DDIKL.HEE.L.HFF.GG 
+ K  down 2		98 BBBJ..CC.J..AAI.L.DDI.L.HEEKL.HFFKGG 
+ J  down 2		98 BBB...CC....AAIJL.DDIJL.HEEKL.HFFKGG 
+ B right 3		97 ...BBBCC....AAIJL.DDIJL.HEEKL.HFFKGG 
+ C right 4		96 ...BBB....CCAAIJL.DDIJL.HEEKL.HFFKGG 
+ I    up 2		98 ..IBBB..I.CCAA.JL.DD.JL.HEEKL.HFFKGG 
+ A right 1		99 ..IBBB..I.CC.AAJL.DD.JL.HEEKL.HFFKGG 
+ D right 1		99 ..IBBB..I.CC.AAJL..DDJL.HEEKL.HFFKGG 
+ H    up 4		96 H.IBBBH.I.CC.AAJL..DDJL..EEKL..FFKGG 
+ A  left 1		99 H.IBBBH.I.CCAA.JL..DDJL..EEKL..FFKGG 
+ D  left 1		99 H.IBBBH.I.CCAA.JL.DD.JL..EEKL..FFKGG 
+ E  left 1		99 H.IBBBH.I.CCAA.JL.DD.JL.EE.KL..FFKGG 
+ I  down 3		97 H..BBBH...CCAA.JL.DDIJL.EEIKL..FFKGG 
+ A right 1		99 H..BBBH...CC.AAJL.DDIJL.EEIKL..FFKGG 
+ H  down 1		99 ...BBBH...CCHAAJL.DDIJL.EEIKL..FFKGG 
+ B  left 3		97 BBB...H...CCHAAJL.DDIJL.EEIKL..FFKGG 
+ J    up 2		98 BBBJ..H..JCCHAA.L.DDI.L.EEIKL..FFKGG 
+ K    up 1		99 BBBJ..H..JCCHAA.L.DDIKL.EEIKL..FF.GG 
+ F  left 1		99 BBBJ..H..JCCHAA.L.DDIKL.EEIKL.FF..GG 
+ G  left 2		98 BBBJ..H..JCCHAA.L.DDIKL.EEIKL.FFGG.. 
+ L  down 1		99 BBBJ..H..JCCHAA...DDIKL.EEIKL.FFGGL. 
+ A right 3		97 BBBJ..H..JCCH...AADDIKL.EEIKL.FFGGL. 
+
+A92 B92 C95 D92 E96 F97 G97 H91 I89 J95 K94 L96 
+[['B' 'B' 'B' 'J' '.' '.']
+ ['H' '.' '.' 'J' 'C' 'C']
+ ['H' '.' '.' '.' 'A' 'A']
+ ['D' 'D' 'I' 'K' 'L' '.']
+ ['E' 'E' 'I' 'K' 'L' '.']
+ ['F' 'F' 'G' 'G' 'L' '.']]

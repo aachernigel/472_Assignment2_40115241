@@ -1,0 +1,36 @@
+Initial board configuration: BBK...J.KDDNJAAM.NEELMFF..LGGG.II...
+
+[['B' 'B' 'K' '.' '.' '.']
+ ['J' '.' 'K' 'D' 'D' 'N']
+ ['J' 'A' 'A' 'M' '.' 'N']
+ ['E' 'E' 'L' 'M' 'F' 'F']
+ ['.' '.' 'L' 'G' 'G' 'G']
+ ['.' 'I' 'I' '.' '.' '.']]
+
+Car fuel available: I:100; N:100; M:100; D:100; J:100; E:100; F:100; L:100; A:100; B:100; K:100; G:100; 
+
+Runtime: 0.2090005874633789
+Search path length: 149
+Solution path length: 12
+Solution path: | N    up 1| I right 3| L  down 1| E right 1| J  down 3| E  left 1| A  left 1| K  down 2| D  left 3| M    up 2| K    up 2| A right 4
+
+ N    up 1		99 BBK..NJ.KDDNJAAM..EELMFF..LGGG.II... 
+ I right 3		97 BBK..NJ.KDDNJAAM..EELMFF..LGGG....II 
+ L  down 1		99 BBK..NJ.KDDNJAAM..EE.MFF..LGGG..L.II 
+ E right 1		99 BBK..NJ.KDDNJAAM...EEMFF..LGGG..L.II 
+ J  down 3		97 BBK..N..KDDN.AAM...EEMFFJ.LGGGJ.L.II 
+ E  left 1		99 BBK..N..KDDN.AAM..EE.MFFJ.LGGGJ.L.II 
+ A  left 1		99 BBK..N..KDDNAA.M..EE.MFFJ.LGGGJ.L.II 
+ K  down 2		98 BB...N...DDNAAKM..EEKMFFJ.LGGGJ.L.II 
+ D  left 3		97 BB...NDD...NAAKM..EEKMFFJ.LGGGJ.L.II 
+ M    up 2		98 BB.M.NDD.M.NAAK...EEK.FFJ.LGGGJ.L.II 
+ K    up 2		98 BBKM.NDDKM.NAA....EE..FFJ.LGGGJ.L.II 
+ A right 4		96 BBKM.NDDKM.N....AAEE..FFJ.LGGGJ.L.II 
+
+A95 D97 E98 I97 J97 K96 L99 M98 N99 
+[['B' 'B' 'K' 'M' '.' 'N']
+ ['D' 'D' 'K' 'M' '.' 'N']
+ ['.' '.' '.' '.' 'A' 'A']
+ ['E' 'E' '.' '.' 'F' 'F']
+ ['J' '.' 'L' 'G' 'G' 'G']
+ ['J' '.' 'L' '.' 'I' 'I']]

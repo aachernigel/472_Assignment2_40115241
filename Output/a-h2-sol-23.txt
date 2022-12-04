@@ -1,0 +1,46 @@
+Initial board configuration: BBCCCLI....LI..AAMDDEEKMFFJ.KM..JHHH
+
+[['B' 'B' 'C' 'C' 'C' 'L']
+ ['I' '.' '.' '.' '.' 'L']
+ ['I' '.' '.' 'A' 'A' 'M']
+ ['D' 'D' 'E' 'E' 'K' 'M']
+ ['F' 'F' 'J' '.' 'K' 'M']
+ ['.' '.' 'J' 'H' 'H' 'H']]
+
+Car fuel available: I:100; M:100; D:100; J:100; C:100; L:100; E:100; F:100; A:100; B:100; K:100; H:100; 
+
+Runtime: 0.17000174522399902
+Search path length: 237
+Solution path length: 22
+Solution path: | A  left 1| K    up 2| E right 1| J    up 1| H  left 3| M  down 1| L  down 1| C right 1| B right 1| I    up 1| A  left 2| J    up 2| E  left 1| K  down 3| E right 1| J  down 2| A right 3| I  down 1| B  left 1| C  left 1| L    up 1| A right 1
+
+ A  left 1		99 BBCCCLI....LI.AA.MDDEEKMFFJ.KM..JHHH 
+ K    up 2		98 BBCCCLI...KLI.AAKMDDEE.MFFJ..M..JHHH 
+ E right 1		99 BBCCCLI...KLI.AAKMDD.EEMFFJ..M..JHHH 
+ J    up 1		99 BBCCCLI...KLI.AAKMDDJEEMFFJ..M...HHH 
+ H  left 3		97 BBCCCLI...KLI.AAKMDDJEEMFFJ..MHHH... 
+ M  down 1		99 BBCCCLI...KLI.AAK.DDJEEMFFJ..MHHH..M 
+ L  down 1		99 BBCCC.I...KLI.AAKLDDJEEMFFJ..MHHH..M 
+ C right 1		99 BB.CCCI...KLI.AAKLDDJEEMFFJ..MHHH..M 
+ B right 1		99 .BBCCCI...KLI.AAKLDDJEEMFFJ..MHHH..M 
+ I    up 1		99 IBBCCCI...KL..AAKLDDJEEMFFJ..MHHH..M 
+ A  left 2		98 IBBCCCI...KLAA..KLDDJEEMFFJ..MHHH..M 
+ J    up 2		98 IBBCCCI.J.KLAAJ.KLDD.EEMFF...MHHH..M 
+ E  left 1		99 IBBCCCI.J.KLAAJ.KLDDEE.MFF...MHHH..M 
+ K  down 3		97 IBBCCCI.J..LAAJ..LDDEE.MFF..KMHHH.KM 
+ E right 1		99 IBBCCCI.J..LAAJ..LDD.EEMFF..KMHHH.KM 
+ J  down 2		98 IBBCCCI....LAA...LDDJEEMFFJ.KMHHH.KM 
+ A right 3		97 IBBCCCI....L...AALDDJEEMFFJ.KMHHH.KM 
+ I  down 1		99 .BBCCCI....LI..AALDDJEEMFFJ.KMHHH.KM 
+ B  left 1		99 BB.CCCI....LI..AALDDJEEMFFJ.KMHHH.KM 
+ C  left 1		99 BBCCC.I....LI..AALDDJEEMFFJ.KMHHH.KM 
+ L    up 1		99 BBCCCLI....LI..AA.DDJEEMFFJ.KMHHH.KM 
+ A right 1		99 BBCCCLI....LI...AADDJEEMFFJ.KMHHH.KM 
+
+A93 B98 C98 E97 H97 I98 J95 K95 L98 M99 
+[['B' 'B' 'C' 'C' 'C' 'L']
+ ['I' '.' '.' '.' '.' 'L']
+ ['I' '.' '.' '.' 'A' 'A']
+ ['D' 'D' 'J' 'E' 'E' 'M']
+ ['F' 'F' 'J' '.' 'K' 'M']
+ ['H' 'H' 'H' '.' 'K' 'M']]

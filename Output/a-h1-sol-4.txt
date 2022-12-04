@@ -1,0 +1,48 @@
+Initial board configuration: .....L..ICCLG.IAAMG.JDDMH.JKEEHFFK..
+
+[['.' '.' '.' '.' '.' 'L']
+ ['.' '.' 'I' 'C' 'C' 'L']
+ ['G' '.' 'I' 'A' 'A' 'M']
+ ['G' '.' 'J' 'D' 'D' 'M']
+ ['H' '.' 'J' 'K' 'E' 'E']
+ ['H' 'F' 'F' 'K' '.' '.']]
+
+Car fuel available: I:100; M:100; D:100; J:100; C:100; L:100; E:100; F:100; A:100; K:100; G:100; H:100; 
+
+Runtime: 0.9610345363616943
+Search path length: 700
+Solution path length: 24
+Solution path: | G    up 2| H    up 2| F  left 1| J  down 1| I    up 1| A  left 2| D  left 2| K    up 2| E  left 1| M  down 2| L  down 2| C right 1| K    up 2| D right 2| A right 2| J    up 2| E  left 3| J  down 2| D  left 2| A  left 2| K  down 3| C  left 1| L    up 2| A right 3
+
+ G    up 2		98 G....LG.ICCL..IAAM..JDDMH.JKEEHFFK.. 
+ H    up 2		98 G....LG.ICCLH.IAAMH.JDDM..JKEE.FFK.. 
+ F  left 1		99 G....LG.ICCLH.IAAMH.JDDM..JKEEFF.K.. 
+ J  down 1		99 G....LG.ICCLH.IAAMH..DDM..JKEEFFJK.. 
+ I    up 1		99 G.I..LG.ICCLH..AAMH..DDM..JKEEFFJK.. 
+ A  left 2		98 G.I..LG.ICCLHAA..MH..DDM..JKEEFFJK.. 
+ D  left 2		98 G.I..LG.ICCLHAA..MHDD..M..JKEEFFJK.. 
+ K    up 2		98 G.I..LG.ICCLHAAK.MHDDK.M..J.EEFFJ... 
+ E  left 1		99 G.I..LG.ICCLHAAK.MHDDK.M..JEE.FFJ... 
+ M  down 2		98 G.I..LG.ICCLHAAK..HDDK....JEEMFFJ..M 
+ L  down 2		98 G.I...G.ICC.HAAK.LHDDK.L..JEEMFFJ..M 
+ C right 1		99 G.I...G.I.CCHAAK.LHDDK.L..JEEMFFJ..M 
+ K    up 2		98 G.IK..G.IKCCHAA..LHDD..L..JEEMFFJ..M 
+ D right 2		98 G.IK..G.IKCCHAA..LH..DDL..JEEMFFJ..M 
+ A right 2		98 G.IK..G.IKCCH..AALH..DDL..JEEMFFJ..M 
+ J    up 2		98 G.IK..G.IKCCH.JAALH.JDDL...EEMFF...M 
+ E  left 3		97 G.IK..G.IKCCH.JAALH.JDDLEE...MFF...M 
+ J  down 2		98 G.IK..G.IKCCH..AALH..DDLEEJ..MFFJ..M 
+ D  left 2		98 G.IK..G.IKCCH..AALHDD..LEEJ..MFFJ..M 
+ A  left 2		98 G.IK..G.IKCCHAA..LHDD..LEEJ..MFFJ..M 
+ K  down 3		97 G.I...G.I.CCHAA..LHDDK.LEEJK.MFFJ..M 
+ C  left 1		99 G.I...G.ICC.HAA..LHDDK.LEEJK.MFFJ..M 
+ L    up 2		98 G.I..LG.ICCLHAA...HDDK..EEJK.MFFJ..M 
+ A right 3		97 G.I..LG.ICCLH...AAHDDK..EEJK.MFFJ..M 
+
+A91 C98 D94 E96 F99 G98 H98 I99 J95 K93 L96 M98 
+[['G' '.' 'I' '.' '.' 'L']
+ ['G' '.' 'I' 'C' 'C' 'L']
+ ['H' '.' '.' '.' 'A' 'A']
+ ['H' 'D' 'D' 'K' '.' '.']
+ ['E' 'E' 'J' 'K' '.' 'M']
+ ['F' 'F' 'J' '.' '.' 'M']]
