@@ -4,6 +4,7 @@
 [Assignment]:	Mini-Project 2
 [Student]:		Artem Chernigel
 [Student ID]:	40115241
+[Github]:		https://github.com/aachernigel/472_Assignment2_40115241
 
 [Requirements to Run]
 	 1. Python
